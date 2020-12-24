@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Opdracht: Flexbox</title>
+  </head>
+  <body>
+    <header class="responsive-box">
+      <img class="header-image" src="logo.jpg" />
+      <h1>WINC Academy training website van Martin</h1>
+    </header>
+    <nav class="responsive-box-nav">
+      <div class="block">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">Over mij</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./receptenformulier.html">Aanmelden</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <form name="contact" class="my-form" method="POST" data-netlify="true">
+          <h3>Contactformulier</h3>
+          <p>Vul hier uw gegevens in en stel uw vraag aan mij:</p>
+          <p></p>
+          <div class="form-group">
+            <label>Name: </label>
+            <input type="text" name="name" />
+          </div>
+          <div class="form-group">
+            <label>Email: </label>
+            <input type="text" name="email" />
+          </div>
+          <div class="form-group">
+            <label>Message: </label>
+            <textarea name="message"> </textarea>
+          </div>
+          <input class="button" type="submit" value="Stuur" name="" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
