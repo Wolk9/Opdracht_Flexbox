@@ -251,10 +251,10 @@ header {
 }
 
 .arend {
-  flex-grow: initial;
+  flex-grow: 0.2;
   order: 1;
 }
 
 .wasbeer {
-  align-items: flex-end;
+  align-self: flex-end;
 }
